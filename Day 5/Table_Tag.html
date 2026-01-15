@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Tag</title>
+  </head>
+  <body>
+    <h3>Using normal way like tr, th, td to create a table</h3>
+
+    <table border="1">
+      <tr>
+        <th>Sr. No.</th>
+        <th>Name</th>
+        <th>Runs</th>
+        <th>Balls</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>Rohit Sharma</td>
+        <td>263</td>
+        <td>183</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>MS Dhoni</td>
+        <td>183</td>
+        <td>105</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Virat Kohli</td>
+        <td>183</td>
+        <td>106</td>
+      </tr>
+    </table>
+
+    <h3>Combile the above table using colspan</h3>
+
+    <table border="1">
+      <tr>
+        <th>Sr. No.</th>
+        <th>Name</th>
+        <th colspan="2">Score</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>Rohit Sharma</td>
+        <td>263</td>
+        <td>183</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>MS Dhoni</td>
+        <td>183</td>
+        <td>105</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Virat Kohli</td>
+        <td>183</td>
+        <td>106</td>
+      </tr>
+    </table>
+
+    <h3>Combile the above table using rowspan</h3>
+
+    <table border="1">
+      <tr>
+        <th>Sr. No.</th>
+        <th>Name</th>
+        <th colspan="2">Score</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>Rohit Sharma</td>
+        <td>263</td>
+        <td>183</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>MS Dhoni</td>
+        <td rowspan="2">183</td>
+        <td>105</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Virat Kohli</td>
+        <td>106</td>
+      </tr>
+    </table>
+  </body>
+</html>
