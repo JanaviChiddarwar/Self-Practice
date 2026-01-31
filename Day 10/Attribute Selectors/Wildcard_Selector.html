@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wildcard Selector (*=)</title>
+
+    <style>
+      a[href*="example"] {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://pixabay.com/photos/nature-waters-lake-island-3082832/"
+      >This contains 'example' and is underlined.</a
+    >
+
+    <a href="https://pixabay.com/photos/nature-waters-lake-island-3082832/"
+      >This is not underlined.</a
+    >
+  </body>
+</html>
