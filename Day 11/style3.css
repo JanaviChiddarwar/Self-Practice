@@ -1,0 +1,11 @@
+p.para-1 {
+    color: red;
+}
+
+.para-1.para-2 {
+    color: blue;
+}
+
+#text {
+    color: black;
+}
