@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.para-1 {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+
+.link-1 {
+    background-color: aquamarine;
+    /* Not working because it doesn't support in inline element */
+    /* The display inline property height and weight from having an effect. */
+    height: 200px;
+    width: 200px;
+    /* By forcefully it apply height and weight in inline element */
+    display: block;
+}
+
+.link-2 {
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    /* By forcefully it apply height and weight in inline element */
+    display: inline-block;
+}

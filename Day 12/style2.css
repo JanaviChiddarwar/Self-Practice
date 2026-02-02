@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: content-box; */
+}
+
+p {
+    background-color: red;
+}
+
+.box {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Due to border-box the size fo .box is not changing 
+and if we use context-box the size gets added in width and height */
