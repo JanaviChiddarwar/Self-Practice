@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent4 {
+    border: 2px solid red;
+    background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    row-gap: 40px;  /*row-gap is used to set the gap between rows in a flex container. It can take values in length units (like px, em, etc.) or percentage. */
+    column-gap: 40px;
+    flex-wrap: wrap-reverse;
+    height: 500px;
+    align-content: flex-end; /*  align-content is used to align the content of the flex container when there is extra space in the cross-axis. It can take values like 'flex-start', 'flex-end', 'center', 'space-between', 'space-around', and 'stretch'. */
+
+}
+
+.child4 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blueviolet;
+}

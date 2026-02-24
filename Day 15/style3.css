@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent3 {
+    border: 2px solid red;
+    background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+}
+
+.child3 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
