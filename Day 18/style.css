@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* html {
+    font-size: 10px;
+} */
+
+:root {
+    font-size: 10px;
+}
+
+.container {
+    background-color: red;
+    height: 100vh;
+    width: 100dvw;
+    font-size: 10px;
+}
+
+.child {
+    height: 10em;  /*%, em, rem, vh, vw, etc*/
+    width: 10em;
+    background-color: blue;
+    font-size: 2em;
+}
+.grandchild {
+    width: 4em;
+    height: 4em;
+    background-color: aqua;
+}

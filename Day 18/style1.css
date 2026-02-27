@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 10px;
+}
+
+.container-1 {
+    --border-color: #387ed1;
+    --text-color: #ff00ff;
+}
+
+h1 {
+    color: var(--border-color);
+} 
+
+p {
+    color: var(--text-color);
+}
