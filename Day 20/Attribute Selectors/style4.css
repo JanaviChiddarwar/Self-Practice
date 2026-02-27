@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+    /* transition-property: background-color;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: linear; */
+
+    /* transition: background-color 1s linear, color 1s linear; */
+
+    transition: all 1s linear;
+}
+
+.container:hover {
+    background-color: blue;
+    color: white;
+}
