@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin: 50px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.box:hover {
+    scale: 1.1;  /* It zoom in and out the box */
+}
+
+.box-1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 50px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.box-1:hover {
+    transform: scale(1.1);
+}
+
+.box-2 {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 50px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.box-2:hover {
+    transform: scale(-1.1);
+}
+
+.box-3 {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin: 50px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.box-3:hover {
+    transform: rotate(45deg);
+}
+
+.box-4 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 50px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.box-4:hover {
+    transform: rotate(45deg) scale(1.1);
+}
+
+.box-5 {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    margin: 50px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    transform-origin: top left; /* It will rotate the box from top left corner */
+}
+
+.box-5:hover {
+    transform: rotate(45deg);
+}
+
+.box-6 {
+    height: 200px;
+    width: 200px;
+    background-color: orangered;
+    margin: 50px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.box-6:hover {
+    transform: skew(20deg, 20deg);
+}

@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(66, 41, 255);
+    height: calc(100vh - 10vh);
+    font-size: clamp(12px, 4vw, 40px);
+    color: white;
+    font-weight: bold;
+}
