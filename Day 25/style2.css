@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dimensions for Laptop */
+.box {
+    height: 50vh;
+    background-color: aqua;
+    font-size: clamp(10px, 4vw, 40px);
+    color: white;
+}
+
+/* Dimensions for Tablet */
+@media(width <= 765px) {
+    .box {
+        background-color: blue;
+    }
+}
+
+/* Dimensions for Mobile */
+@media(width <= 640px) {
+    .box {
+        background-color: red;
+        /* display: none; */
+    }
+}
