@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    animation: marquee-animation 4s linear infinite;
+}
+
+@keyframes marquee-animation {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-600px);
+    }
+}
+
+.child {
+    height: 200px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 8px;
+    flex-shrink: 0;
+}

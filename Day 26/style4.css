@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    animation: move-x 1s linear infinite alternate;
+}
+
+@keyframes move-x {
+    from {
+        translate: 0;
+    }
+    to {
+        translate: 200px;
+    }
+}

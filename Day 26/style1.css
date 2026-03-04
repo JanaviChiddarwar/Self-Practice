@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    animation:
+        rotate-animation /* Described name in @keyframes */
+        4s /* 1s, 2s, using for slow down more seconds more it will slow down can also give ease, ease-in, ease-out, ease-in-out*/
+        linear /* Rotation in linear way */
+        2s /* Delay in rotation */
+        infinite; /* How many times or the count of rotation */
+}
+
+@keyframes rotate-animation {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}

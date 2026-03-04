@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    /* background-color: aqua; */
+    width: 40vw;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: typewriter-effect 2s linear infinite alternate, blink 4s linear infinite;
+    border-right: 2px solid black; /* Gives the end effect */
+}
+
+@keyframes typewriter-effect {
+    from {
+        width: 40vw;
+    }
+    to {
+        width: 20vw;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: blue;
+    }
+    to {
+        border-color: transparent;
+    }
+}
