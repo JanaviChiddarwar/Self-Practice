@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    padding: 10px;
+    background-color: aqua;
+    gap: 20px; /* This will give the gap between the boxes */
+    display: grid; /* By using only display: grid the grid will look like every box down by down */
+    grid-template-columns: 200px 200px 200px; /* This will make the grid look like 3 boxes in a row same as child's height and width */
+    grid-template-rows: 200px 200px; /* This will make the grid look like 2 boxes in a column same as child's height and width */
+}
+
+.child {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 2px solid red;
+}

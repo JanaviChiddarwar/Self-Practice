@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    padding: 10px;
+    background-color: aqua;
+    gap: 20px;
+    display: grid;
+    /* grid-template-columns: fr 1fr 1fr;*/ /* fr:- Fraction fr */
+    /* grid-template-columns: 33% 66% 33%; */
+    grid-template-columns: 1fr 1fr 1fr; /* Best option is using fr*/
+    grid-template-rows: 200px 200px;
+}
+
+.child {
+    background-color: blue;
+    border: 2px solid red;
+}
